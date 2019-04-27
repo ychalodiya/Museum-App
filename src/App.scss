@@ -1,0 +1,87 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /*background-color: lavender;*/
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  /*outline: 1px solid black;*/
+  background-color: white;
+  padding: 50px;
+}
+
+footer {
+  font-size: 1.5rem;
+  color: black;
+  background-color: lightgrey;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 6rem;
+  text-shadow: 3px 3px 0 lavender;
+  color: midnightblue;
+}
+
+.displayArea {
+  min-height: calc(100vh - 370px);
+
+  p {
+    font-size: 2.5rem;
+    color: steelblue;
+    font-weight: 300;
+    font-style: italic;
+  }
+}
+
+form {
+  font-size: 2rem;
+}
+
+label {
+  font-weight: 300;
+  margin-right: 15px;
+}
+
+input[type="search"] {
+  -webkit-appearance: none;
+  font-size: 16px;
+}
+
+.noResults {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100vh - 370px);
+}
+
+.showResults {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  p {
+    font-weight: bold;
+    margin: 40px 0;
+    font-size: 3rem;
+
+  }
+
+  .artworks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+}
